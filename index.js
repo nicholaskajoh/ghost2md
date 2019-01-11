@@ -36,7 +36,7 @@ function getFrontMatter(post) {
   fm += `draft = ${post.status == 'published' ? false : true}\n`;
   fm += `image = "${post.feature_image}"\n`;
   fm += `slug = "${post.slug}"\n`;
-  if (tags) fm += `tags = ${tags}\n`;
+  if (tags) fm += `tag = ${tags}\n`;
   fm += `title = "${post.title}"\n`;
   fm += `\n${argv.frontMatterTokenId}\n\n\n`;
 
