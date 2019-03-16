@@ -7,6 +7,7 @@
 ## Setup
 - Clone this repository `git clone https://github.com/nicholaskajoh/ghost2md.git`.
 - Change directory to project root.
+- create posts folder with `mkdir posts`. 
 - Install Node dependencies `npm install`.
 
 ## Usage
